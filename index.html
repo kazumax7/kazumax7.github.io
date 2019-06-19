@@ -1,3 +1,17 @@
 <html>
-
+	<head>
+		<meta charset="utf-8">
+		<script>
+			(function(){
+				let href = location.href.split(":");
+				if(href[0] != "https"){
+					location.href = "https:" + href[1];
+				}
+			})();
+		</script>
+	</head>
+	
+	<body>
+	
+	</body>
 </html>
