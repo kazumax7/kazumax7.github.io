@@ -2,11 +2,15 @@
 	<head>
 		<meta charset="utf-8">
 		<script>
+			const TITLE = "KAZUMA PORTAL";
+			
 			(function(){
 				let href = location.href.split(":");
 				if(href[0] != "https"){
 					location.href = "https:" + href[1];
 				}
+				
+				document.title = TITLE;
 			})();
 		</script>
 	</head>
