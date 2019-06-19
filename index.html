@@ -18,8 +18,14 @@
 				let width = window.innerWidth();
 				let height = window.innerHeight();
 				
-				document.write("<link rel='stylesheet' type='text/css' href='" + ((width >= height) ? pc_layout : phone_layout) + "'>");
-				
+				{
+					let sheet = document.createElement("link");
+					sheet.href = (width >= height) ? pc_layout : phone_layout;
+					sheet.rel = "stylesheet";
+					sheet.type = "text/css";
+					
+					focument.getElementByTagName("head")[0].appendChild(sheet);
+				}
 				
 			})();
 		</script>
