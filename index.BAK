@@ -10,8 +10,8 @@
 			
 			(function(){
 				let href = location.href.split(":");
-				if(href[0] == "http"){
-					location.href = "https:/" + href[1];
+				if(href[0] != "https"){
+					//location.href = "https:/" + href[1];
 				}
 				
 				document.title = TITLE;
