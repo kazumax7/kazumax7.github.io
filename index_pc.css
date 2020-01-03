@@ -1,3 +1,58 @@
 div#header {
+	margin : 4% 0;
 	color : red;
+}
+
+#pageTitle{
+	text-align : center;
+	font-size : 24px;
+}
+
+#contents{
+	width : 100vw;
+	text-align : center;
+	background : #1E50A266;
+}
+
+.content{
+	display : inline-block;
+	width : 20vw;
+	height : 20vw;
+	text-align : center;
+	background : #1E50A2;
+	font-size : 2vw;
+	color : #FFFFFFFF;
+	margin : 2px 0;
+}
+
+#JStest{
+	text-align : left;
+}
+
+#test1{
+	background : #00a3af;
+}
+
+#test2{
+	background : #e83929;
+}
+
+#test3{
+	background : #fcc800;
+}
+
+#test4{
+	background : #93ca76;
+}
+
+#test5{
+	background : #028760;
+}
+
+#test6{
+	background : #460e44;
+}
+
+#test7{
+	background : #38b48b;
 }
