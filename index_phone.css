@@ -3,74 +3,8 @@ div#header {
 	color : green;
 }
 
-#pageTitle{
-	text-align : center;
-	font-size : 24px;
-}
 
-#contents{
-	width : 100vw;
-	text-align : center;
-	background : #1E50A266;
-}
-
-.content{
-	display : inline-block;
+.tile{
 	width : 26vw;
 	height : 26vw;
-	text-align : center;
-	background : #1E50A2;
-	font-size : 2vw;
-	color : #FFFFFFFF;
-	margin : 2px 0;
-}
-
-#JStest{
-	text-align : left;
-}
-
-#testA{
-	background : #00a3af;
-}
-
-#testB{
-	background : #e83929;
-}
-
-#testC{
-	background : #fcc800;
-}
-
-#testD{
-	color : #000000;
-	background : url("resources/icon_1.jpg");
-	background-size : contain;
-}
-
-#testE{
-	background : #028760;
-}
-
-#testF{
-	background : #460e44;
-}
-
-#testG{
-	background : #38b48b;
-}
-
-#testH{
-	background : #f2a0a1;
-}
-
-#testI{
-	background : #203744;
-}
-
-#testJ{
-	background : #e95295;
-}
-
-#testK{
-	background : #83ccd2;
 }
