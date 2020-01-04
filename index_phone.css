@@ -16,8 +16,8 @@ div#header {
 
 .content{
 	display : inline-block;
-	width : 30vw;
-	height : 30vw;
+	width : 26vw;
+	height : 26vw;
 	text-align : center;
 	background : #1E50A2;
 	font-size : 2vw;
@@ -42,7 +42,9 @@ div#header {
 }
 
 #testD{
-	background : #93ca76;
+	color : #000000;
+	background : url("resources/icon_1.jpg");
+	background-size : contain;
 }
 
 #testE{
