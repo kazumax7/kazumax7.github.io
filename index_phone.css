@@ -16,8 +16,8 @@ div#header {
 
 .content{
 	display : inline-block;
-	width : 20vw;
-	height : 20vw;
+	width : 30vw;
+	height : 30vw;
 	text-align : center;
 	background : #1E50A2;
 	font-size : 2vw;
@@ -29,30 +29,46 @@ div#header {
 	text-align : left;
 }
 
-#test1{
+#testA{
 	background : #00a3af;
 }
 
-#test2{
+#testB{
 	background : #e83929;
 }
 
-#test3{
+#testC{
 	background : #fcc800;
 }
 
-#test4{
+#testD{
 	background : #93ca76;
 }
 
-#test5{
+#testE{
 	background : #028760;
 }
 
-#test6{
+#testF{
 	background : #460e44;
 }
 
-#test7{
+#testG{
 	background : #38b48b;
+}
+
+#testH{
+	background : #f2a0a1;
+}
+
+#testI{
+	background : #203744;
+}
+
+#testJ{
+	background : #e95295;
+}
+
+#testK{
+	background : #83ccd2;
 }
