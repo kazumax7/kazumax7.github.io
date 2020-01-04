@@ -1,6 +1,6 @@
 #pageTitle{
 	text-align : center;
-	font-size : 24px;
+	font-size : 3vw;
 }
 
 #contents{
@@ -65,6 +65,8 @@
 	background : #e95295;
 }
 
-#testK{
-	background : #83ccd2;
+#goTwitter{
+	text-align : right;
+	background : url("resources/Twitter_tile.png");
+	background-size : contain;
 }
