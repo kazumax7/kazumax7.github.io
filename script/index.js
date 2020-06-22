@@ -1,9 +1,9 @@
 function share(){
     if (navigator.share) {
         navigator.share({
-            title: document.querySelector('title').textContent,
-            text: document.querySelector('meta[name="description"]').getAttribute('content'),
-            url: location.href
+            title: 'MDN',
+            text: 'Learn web development on MDN!',
+            url: 'https://developer.mozilla.org',
         });
     }
     //サポートしていない場合の処理
