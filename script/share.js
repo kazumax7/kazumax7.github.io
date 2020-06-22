@@ -1,5 +1,6 @@
 function openWindow(url){
-    window.open(url, "", "toolbar=no");
+    location.href = url;
+    //window.open(url, "", "toolbar=no");
 }
 
 async function share(title, text, url){
