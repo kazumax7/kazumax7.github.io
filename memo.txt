@@ -1,0 +1,15 @@
+d-m-y-t-n
+
+
+d: date
+m: month
+y: year
+
+i.g. 20th February 1993 -> 20-02-1993
+
+t: article type
+	A: normal article
+	S: special
+	T: the top of the day (each day, there is one only
+
+n: name of the article
