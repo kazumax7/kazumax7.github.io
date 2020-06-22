@@ -66,13 +66,12 @@ body{
 
 .shareicon{
     height: calc(var(--sharebtn-height) * 0.8);
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: calc(var(--sharebtn-height) * 0.1);
 }
 
 .sharelabel{
     color: #FFFFFF;
-    font-size: calc(var(--sharebtn-width)/6);
+    font-size: calc(var(--sharebtn-width)/7);
     font-weight: bolder;
     margin: auto;
 }
