@@ -3,5 +3,5 @@
     --base-width: var(--device-width);
 
     --main-content-width: 90vw;
-    --sub-content-width: 90vw;
+    --sub-content-width: 100vw;
 }

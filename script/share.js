@@ -1,18 +1,3 @@
-function openWindow(url){
-    location.href = url;
-    //window.open(url, "", "toolbar=no");
-}
-
-async function share(title, text, url){
-    if(navigator.share){
-        navigator.share({
-            title: title,
-            text: text,
-            url: url
-        });
-    }
-}
-
 function shareOnTwitter(text = "", url = "", hashtags = "", via = "", related = "", in_reply_to = ""){
     let data = [];
 
@@ -32,17 +17,17 @@ function shareOnTwitter(text = "", url = "", hashtags = "", via = "", related = 
 
     data = data.join("&");
 
-    openWindow(`https://twitter.com/intent/tweet?${data}`);
+    go(`https://twitter.com/intent/tweet?${data}`);
 }
 
 function shareUrlOnFacebook(url){
-    openWindow(`https://www.facebook.com/sharer/sharer.php?u=${url}`);
+    go(`https://www.facebook.com/sharer/sharer.php?u=${url}`);
 }
 
 function shareUrlOnLINE(url){
-    openWindow(`https://social-plugins.line.me/lineit/share?url=${url}`);
+    go(`https://social-plugins.line.me/lineit/share?url=${url}`);
 }
 
 function shareOnLINE(text){
-    openWindow(`http://line.me/R/msg/text/?${text}`);
+    go(`http://line.me/R/msg/text/?${text}`);
 }
