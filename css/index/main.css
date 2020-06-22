@@ -57,6 +57,11 @@ body{
     border: 0;
     margin-top: calc(var(--sharebtn-height)/4);
     margin-bottom: calc(var(--sharebtn-height)/4);
+    box-shadow: 0px 0px 8px gray;
+}
+
+.sharebtn:hover{
+    transform: scale(1.01, 1.01);
 }
 
 .shareicon{
