@@ -107,12 +107,14 @@ body{
 
 .sub-content{
     width: var(--sub-content-width);
-    background: var(--quotergray);
+    background: var(--bg);
 }
 
 .ad{
-    max-width: var(--sub-content-width);
+    max-width: calc(var(--sub-content-width) - 8px);
     height: fit-content;
+    border-width: 4px;
+    border-style: double;
 }
 
 .ad-title{
